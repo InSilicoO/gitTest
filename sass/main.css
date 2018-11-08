@@ -1,0 +1,90 @@
+html {
+  font-size: 10px;
+  height: 5000px;
+  /*
+        &:before,
+        &:after
+            content: ""
+            display: inline-block
+            vertical-align: middle
+            width: 20%
+            height: 1rem
+            background-color: red
+            position: relative
+            opacity: 0.5*/
+}
+
+html body {
+  font-size: 16px;
+  background-color: #fff;
+  color: #f4fdfb;
+}
+
+html .title {
+  overflow: hidden;
+  text-align: center;
+}
+
+html .title h4 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+html .navbar {
+  padding: 0.3rem 5rem;
+  border: 1px solid red;
+  min-width: 100%;
+}
+
+html .navbar .navbar-nav li.nav-item > a.nav-link {
+  color: #f4fdfb;
+}
+
+html .navbar .navbar-nav li.nav-item > a.nav-link:hover {
+  color: #0c7170;
+}
+
+html .navbar .navbar-nav li.active > a.nav-link {
+  color: #0c7170;
+}
+
+html header {
+  background-image: url("../img/header.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 14rem 5rem;
+}
+
+html header h4 {
+  font-weight: bold;
+  color: #f4fdfb;
+  font-size: 2em;
+}
+
+html header p {
+  font-size: 1.1em;
+}
+
+html header .btn {
+  font-weight: bold;
+  padding: 1rem 2rem;
+  background: #fff;
+  color: #061e37;
+}
+
+html header .btn:hover {
+  background: #061e37;
+  color: #fff;
+}
+
+html .popcat {
+  color: #98a9b2;
+}
+
+html .popcat h4 {
+  font-weight: bold;
+  color: brown;
+  font-size: 2em;
+}
+/*# sourceMappingURL=main.css.map */

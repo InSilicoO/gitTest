@@ -1,0 +1,77 @@
+$primary-color-btn-foot:   #061e37
+$primary-color-btn-sec:    #1de9b6
+$text-color-content:       #98a9b2
+
+$color-text-nav:           #f4fdfb
+$accent-color-nav:         #0c7170
+$divider-color-bg:         #fff
+
+html
+    font-size: 10px
+    height: 5000px
+    body
+        font-size: 16px
+        background-color: $divider-color-bg
+        color: $color-text-nav
+    // заголовок
+            /*
+    .title
+        overflow: hidden
+        text-align: center
+        h4
+            display: inline-block
+            vertical-align: middle
+        &:before,
+        &:after
+            content: ""
+            display: inline-block
+            vertical-align: middle
+            width: 20%
+            height: 1rem
+            background-color: red
+            position: relative
+            opacity: 0.5*/
+    //menu
+    .navbar
+        padding: 0.3rem 5rem
+        border: 1px solid red
+        min-width: 100%
+        .logo
+            
+        .navbar-nav
+            li.nav-item > a.nav-link
+                color: $color-text-nav
+                &:hover
+                    color: $accent-color-nav
+            li.active > a.nav-link
+                color: $accent-color-nav
+    //header
+    header
+        background-image: url("../img/header.png")
+        background-position: center
+        background-repeat: no-repeat
+        background-size: cover
+        padding: 14rem 5rem
+        h4
+            font-weight: bold
+            color: $color-text-nav
+            font-size: 2em
+        p
+            font-size: 1.1em
+        .btn
+            font-weight: bold
+            padding: 1rem 2rem
+            background: #fff
+            color: $primary-color-btn-foot
+            &:hover
+                background: $primary-color-btn-foot
+                color: #fff
+    // popular category
+    .popcat
+        color: $text-color-content
+        h4
+            font-weight: bold
+            color: green
+            font-size: 2em
+        .btn
+            background: $primary-color-btn-foot
